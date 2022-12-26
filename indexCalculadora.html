@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="container">
+    <h1 class="h1">Calculadora</h1>
+
+    <div class="calculadora">
+        <div class="display">
+            <div class="zero"></div>
+        
+        <div class="keys">
+            <button class="num" onclick="teclas('7')">7</button>
+            <button class="num" onclick="teclas('8')">8</button>
+            <button class="num" onclick="teclas('9')">9</button>
+            <button class="operadores" onclick="operadores('/')">&divide;</button>
+            <button class="num-1" onclick="apagar()">&crarr;</button>
+            <button class="num-1" onclick="excluir()">C</button>
+            <button class="num" onclick="teclas('4')">4</button>
+            <button class="num" onclick="teclas('5')">5</button>
+            <button class="num" onclick="teclas('6')">6</button>
+            <button class="operadores" onclick="operadores('*')">&times;</button>
+            <button class="num-1" onclick="operadores('(')">(</button>
+            <button class="num-1" onclick="operadores(')')">)</button>
+            <button class="num" onclick="teclas('1')">1</button>
+            <button class="num" onclick="teclas('2')">2</button>
+            <button class="num" onclick="teclas('3')">3</button>
+            <button class="operadores" onclick="operadores('-')">-</button>
+            <button class="num-1" onclick="operadores('**')">x&#178;</button>
+            <button class="num-1" onclick="operadores('**0.5')">&radic;</button>
+            <button class="num" onclick="teclas('0')">0</button>
+            <button class="num-1" onclick="teclas('.')">.</button>
+            <button class="num-1" onclick="operadores('*0.01*')">%</button>
+            <button class="operadores" onclick="operadores('+')">+</button>
+            <button class="igual" onclick="calculo()">=</button>
+        </div>
+
+    </div>
+    
+    </section>
+    <script src="/script.js"></script>
+
+</body>
+</html>

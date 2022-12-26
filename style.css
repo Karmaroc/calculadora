@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(3, 11, 56);
+    font-family: 'Tomorrow';
+    
+}
+
+.container {
+    max-width: 500px;
+    background:rgb(3, 11, 56);
+    color:aliceblue;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.keys {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0.5em 3em; /*Alinha linhas e colunas no grid*/
+    justify-content: center;
+}
+
+.display {
+    background-color: rgb(10, 14, 27);
+    color: rgb(252, 252, 252);
+    font-size: 2em;
+    text-align: center;
+    border-radius: 15px  15px 15px 15px;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    
+}
+
+.num{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(43, 59, 104);
+    color: aliceblue;
+    font-size: 0.5em;
+    border: none; 
+    cursor: pointer;
+         
+}
+
+.operadores{
+    width: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 0.5em;
+    background-color: rgb(43, 89, 241);
+    color:aliceblue;
+    cursor: pointer;
+}
+
+.num-1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(155, 7, 7);
+    color: aliceblue;
+    font-size: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.igual {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(252, 33, 33);
+    color: aliceblue;
+    font-size: 0.5em;
+    border: none;
+    width: 206%;
+    cursor: pointer;
+}
+
+.num:hover, .operadores:hover, .num-1:hover, .igual:hover  {
+    background: rgb(99, 106, 124);
+}
+
+.zero {
+    background-color: rgb(43, 59, 104);
+    color: rgb(252, 252, 252);
+    font-size: 1em;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    border: none; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 325px;
+    height: 60px;  
+} 
+/* 
+.zero {
+    animation: blinker 2s linear infinite;
+
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+} */
+
