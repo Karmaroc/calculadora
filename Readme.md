@@ -16,5 +16,9 @@ radiciações e porcentagem de números ao clicar nas teclas. Vulgo uma calculad
 
 ## 🎨 Layout
 <p align="center">
-<img src="https://user-images.githubusercontent.com/69429925/206007796-72e055c2-cc33-4413-9dd9-4c799908b4a9.png">
+<img src="">
 </p>
+
+## Autor
+
+- ``LinkedIn:`` https://www.linkedin.com/in/karmaroc-vitor-manoel/
