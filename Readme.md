@@ -16,7 +16,7 @@ radiciações e porcentagem de números ao clicar nas teclas. Vulgo uma calculad
 
 ## 🎨 Layout
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/69429925/209565418-28094920-43e2-4fce-944c-7969ffe75f6f.png">
 </p>
 
 ## Autor
